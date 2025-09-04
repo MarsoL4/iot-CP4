@@ -29,7 +29,7 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
 - **LED_XOR_TRUE:** GPIO2 → resistor → LED → GND
 - **LED_XOR_FALSE:** GPIO4 → resistor → LED → GND
 
-> ![FOTO DO CIRCUITO AQUI](parte2/Image.jpg)  
+> ![FOTO DO CIRCUITO AQUI](parte2/Image.jpg)
 
 ---
 
@@ -114,9 +114,9 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
 
 ---
 
-## Fotos do Protótipo
+## Vídeo do Protótipo
 
-> ![FOTO DO PROTÓTIPO 1](caminho/para/foto1.jpg)
+> ![VÍDEO DO PROTÓTIPO EM FUNCIONAMENTO](parte2/MicrosoftTeams-video.mp4)
 
 ---
 
