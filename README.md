@@ -116,7 +116,7 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
 
 ## Vídeo do Protótipo
 
-> ![VÍDEO DO PROTÓTIPO EM FUNCIONAMENTO](parte2/MicrosoftTeams-video.mp4)
+> ![VÍDEO DO PROTÓTIPO EM FUNCIONAMENTO](parte2/MicrosoftTeams-video-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
