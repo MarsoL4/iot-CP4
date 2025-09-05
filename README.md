@@ -1,8 +1,7 @@
 # CP4: Classificador e Lógica XOR com ESP32
 
 ## Integrantes
-- Nome: Enzo Marsola, Cauan da Cruz, Igor Barrocal
-- RM: RM556310, RM558238, RM555217
+- Nome: Enzo Marsola RM556310, Cauan da Cruz RM558238, Igor Barrocal RM555217
 
 ---
 
@@ -93,13 +92,3 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
 ## Vídeo do Protótipo
 
 > ![VÍDEO DO PROTÓTIPO EM FUNCIONAMENTO](parte2/MicrosoftTeams-video-ezgif.com-video-to-gif-converter.gif)
-
----
-
-## Observações Finais
-
-- **Ordem das features** no vetor C deve ser igual à do treino.
-- **Todos os arquivos** do projeto estão organizados nas pastas `/parte1/` e `/parte2/`.
-- **Dúvidas ou problemas:** consulte este README ou entre em contato com os integrantes.
-
----
