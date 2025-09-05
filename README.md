@@ -1,4 +1,4 @@
-# Projeto: Classificador e Lógica XOR com ESP32
+# CP4: Classificador e Lógica XOR com ESP32
 
 ## Integrantes
 - Nome: Enzo Marsola, Cauan da Cruz, Igor Barrocal
@@ -47,14 +47,6 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
   - Y = 1: LED_XOR_TRUE = ON, LED_XOR_FALSE = OFF
   - Y = 0: LED_XOR_TRUE = OFF, LED_XOR_FALSE = ON
 
-#### Trecho principal do código:
-```cpp
-// (Insira aqui o trecho relevante do código usado para lógica XOR e cálculo das features)
-```
-
-### Demonstração (vídeo/GIF)
-- *(Insira aqui o vídeo ou GIF curto mostrando os LEDs alternando de acordo com o XOR, ou coloque um link para o arquivo de vídeo quando estiver pronto.)*
-
 ### Explicação das Features
 
 > Escolhemos as features RMS e Pico-a-Pico porque juntas permitem distinguir entre variações rápidas e lentas do sinal. O RMS indica energia média (amplitude geral), enquanto o Pico-a-Pico mostra o quanto o sinal oscilou durante a janela. Assim, conseguimos gerar duas condições lógicas para o XOR a partir de apenas um sensor.
@@ -75,26 +67,10 @@ Este projeto utiliza um **ESP32** para extrair duas features (RMS e Pico-a-Pico)
 - Utilizamos **PyCaret** e **m2cgen** para treinar dois classificadores:
   - Decision Tree (DT)
   - Linear SVM (SVM)
-- Os códigos dos modelos exportados estão em:
-  - `./parte2/model_dt.c`
-  - `./parte2/model_svm.c`
+
 - O script de treino está em:  
-  - `./parte2/treino_modelo.py`
-
-### Métricas e Justificativa
-
-- Após validação cruzada, os modelos apresentaram as seguintes métricas:
-
-  | Modelo      | Accuracy | F1-score |
-  |-------------|----------|----------|
-  | DecisionTree|   xx%    |   xx     |
-  | SVM         |   xx%    |   xx     |
-
-- **Escolha:**  
-  *(Indique aqui qual modelo foi escolhido e inclua uma justificativa de 3–5 linhas. Ex:)*  
-  > O modelo Decision Tree foi escolhido para embarcar pois apresentou melhor performance na validação e é mais eficiente em recursos para o ESP32. O SVM foi mantido para comparação no relatório.
-
----
+  - `./parte2/script.py`
+  - ou `./parte2/script.ipynb`
 
 ## Instruções para Execução
 
